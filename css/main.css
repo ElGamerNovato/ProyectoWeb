@@ -1,0 +1,33 @@
+header{
+    background-color: #3A3088;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 0;
+    font-family: fuenteG;
+    display: flex;
+}
+td>nav>a{
+    display: inline-table;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+td>nav>a:hover{
+    background-color: #261E62;
+    color: #E9EE8E;
+}
+.logo{
+    display: inline-block;   
+}
+.logo-img{
+    height: 100px;
+}
+.logo_img2{
+    height: 60px;
+}
+footer{
+   background-color: #3A3088; 
+}

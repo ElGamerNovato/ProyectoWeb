@@ -1,0 +1,118 @@
+@font-face{
+    font-family: fuenteG;
+    src: url("zh-cn.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #261E62;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+h1{
+    font-family: fuenteG;
+    color: #E9EE8E;
+}
+.logo_red{
+    height: 50px;
+}
+.banner{
+    font-size: 30px;
+    font-family: fuenteG;
+    text-align: center;
+    background-image: url("../img_audio/irminsul.png");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.banner_j{
+    font-size: 30px;
+    font-family: fuenteG;
+    text-align: center;
+    background-image: url("../img_audio/videojuegos.png");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.banner_c{
+    font-size: 30px;
+    font-family: fuenteG;
+    text-align: center;
+    background-image: url("../img_audio/consolas.jpg");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner_i{
+    font-size: 30px;
+    font-family: fuenteG;
+    text-align: center;
+    background-image: url("../img_audio/intranet.png");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner_e{
+    font-size: 30px;
+    font-family: fuenteG;
+    text-align: center;
+    background-image: url("../img_audio/envio.jpg");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.descripcion{
+    height: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul>li>a{
+    display: inline-table;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: fuenteG;
+}
+ul>li>a:hover{
+    background-color: #261E62;
+    color: #E9EE8E;
+}
+.descripcion_2{
+    height: 700px;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

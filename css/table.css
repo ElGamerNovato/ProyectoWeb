@@ -1,0 +1,24 @@
+table{
+    width: 97%;
+}
+td{
+    text-align: center;  
+}
+th{
+    font-size: 20px;
+    font-family: fuenteG;
+    color: #E9EE8E;
+}
+
+td a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    
+}
+td a:hover{
+    background-color: #3A3088;
+}
